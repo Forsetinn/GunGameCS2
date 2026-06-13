@@ -11,8 +11,8 @@ weapon to advance through the weapon order, win with the final knife kill.
   snipers → machine guns → Zeus → HE grenade → knife. Kills with the wrong
   weapon don't count.
 - **Kills per level** — global default (2) plus per-level overrides. Defaults:
-  SMGs and rifles need 3 kills, the AUG 6, and the final stretch (snipers,
-  Zeus, HE, knife) are quick 1-kill levels.
+  SMGs and rifles need 3 kills, and the final stretch (snipers, Zeus, HE,
+  knife) are quick 1-kill levels.
 - **Turbo mode** — new weapon handed over instantly on level up (Arms Race
   style). Off = next spawn.
 - **Knife steal (KnifePro)** — knife kills steal a level from the victim, with a

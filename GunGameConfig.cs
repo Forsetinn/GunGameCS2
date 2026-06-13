@@ -62,8 +62,8 @@ public class GunGameConfig : BasePluginConfig
 
     /// <summary>
     /// Per-level override of KillsPerLevel. Levels not listed use KillsPerLevel.
-    /// Defaults: SMGs/rifles need 3 kills, AUG 6, snipers/Zeus/nade/knife are
-    /// quick 1-kill levels at the end of the run.
+    /// Defaults: SMGs/rifles need 3 kills, snipers/Zeus/nade/knife are quick
+    /// 1-kill levels at the end of the run.
     /// </summary>
     [JsonPropertyName("KillsPerLevelOverride")]
     public Dictionary<string, int> KillsPerLevelOverride { get; set; } = new()
@@ -81,7 +81,7 @@ public class GunGameConfig : BasePluginConfig
         ["23"] = 3,             // m4a1
         ["24"] = 3,             // ak47
         ["25"] = 3,             // sg556
-        ["26"] = 6,             // aug
+        ["26"] = 3,             // aug
         ["29"] = 1,             // scar20
         ["30"] = 1,             // g3sg1
         ["31"] = 3,             // m249
