@@ -1,0 +1,6 @@
+bin/
+obj/
+publish/
+linux-migration/
+gungame-linux-migration.zip
+*.user
