@@ -191,10 +191,10 @@ Bots need a nav mesh baked into the map — on maps without one they stand still
 - Quake announcer: install [cs2-quake-sounds](https://github.com/Kandru/cs2-quake-sounds)
   and mount its sound addon `3461824328`. Configure which events play in its
   JSON config (`sound_hearable_by: "attacker"` keeps it client-sided).
-- Own sounds (e.g. Mario level up/down): build a tiny workshop sound addon —
-  see `GunGameSoundsAddon/README.md` in this repo for the step-by-step guide —
-  then reference its sound events in the GunGame config
-  (`"LevelUpSound": "GunGame.LevelUp"` etc.).
+- GunGame level sounds: a ready-made addon ships with this project — mount
+  workshop ID `3742790165` and set `"LevelUpSound": "GunGame.LevelUp"` etc.
+  See `GunGameSoundsAddon/README.md` for the drag-and-drop setup, or the same
+  doc's guide to building an addon with your own audio.
 
 ## 9. Verify
 
